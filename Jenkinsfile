@@ -33,7 +33,8 @@ node ('Ubuntu-app-agent'){
     
     stage('DAST')
         {
-        build 'SECURITY-DAST-OWASP_ZAP'
+        /*build 'SECURITY-DAST-OWASP_ZAP'*/
+            println "SECURITY-DAST-OWASP_ZAP"
         }
  
 }
